@@ -35,7 +35,7 @@ boton_6 = Button(ventana, text = "6", width = 5, height = 2, command = lambda:cl
 boton_7 = Button(ventana, text = "7", width = 5, height = 2, command = lambda:click(7))
 boton_8 = Button(ventana, text = "8", width = 5, height = 2, command = lambda:click(8))
 boton_9 = Button(ventana, text = "9", width = 5, height = 2, command = lambda:click(9))
-boton_0 = Button(ventana, text = "0", width = 16, height = 2, command = lambda:click(0))
+boton_0 = Button(ventana, text = "0", width = 16, height = 2, command = lambda:click(0), bg = "blue")
 
 boton_borrar = Button(ventana, text = "C", width = 5, height = 2, command = lambda:borrar())
 boton_punto = Button(ventana, text = ".", width = 5, height = 2, command = lambda:click("."))
